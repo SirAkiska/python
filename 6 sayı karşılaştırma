@@ -1,0 +1,34 @@
+# 6 sayı ortalaması ve karşılaştırması 
+s1=int(input("sayı giriniz "))
+s2=int(input("sayı giriniz "))
+s3=int(input("sayı giriniz "))
+s4=int(input("sayı giriniz "))
+s5=int(input("sayı giriniz "))
+s6=int(input("sayı giriniz "))
+top=s1+s2+s3+s4+s5+s6
+ort=top/6
+print("toplamlari {} olan6 sayının ortalaması {}'dir".format(top,ort))
+if s1>s2 and s1>s3 and s1>s4 and s1>s5 and s1>s6:
+    print("en büyük sayi 1. girilen")
+if s2>s1 and s2>s3 and s2>s4 and s2>s5 and s2>s6:
+    print("en büyük sayi 2. girilen")
+if s3>s1 and s3>s2 and s3>s4 and s3>s5 and s3>s6:
+    print("en büyük sayi 3. girilen")   
+if s4>s1 and s4>s2 and s4>s3 and s4>s5 and s4>s6:
+    print("en büyük sayi 4. girilen")
+if s5>s1 and s5>s2 and s5>s3 and s5>s4 and s5>s6:
+    print("en büyük sayi 5. girilen")
+if s6>s1 and s6>s2 and s6>s3 and s6>s4 and s6>s5:
+    print("en büyük sayi 6. girilen")
+if s1<s2 and s1<s3 and s1<s4 and s1<s5 and s1<s6:
+    print("en küçük sayi 1. girilen")
+if s2<s1 and s2<s3 and s2<s4 and s2<s5 and s2<s6:
+    print("en küçük sayi 2. girilen")
+if s3<s1 and s3<s2 and s3<s4 and s3<s5 and s3<s6:
+    print("en küçük sayi 3. girilen")   
+if s4<s1 and s4<s2 and s4<s3 and s4<s5 and s4<s6:
+    print("en küçük sayi 4. girilen")
+if s5<s1 and s5<s2 and s5<s3 and s5<s4 and s5<s6:
+    print("en küçük sayi 5. girilen")
+if s6<s1 and s6<s2 and s6<s3 and s6<s4 and s6<s5:
+    print("en küçük sayi 6. girilen")
